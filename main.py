@@ -12,6 +12,12 @@ PROXIES = {
     "https": "http://127.0.0.1:10809"
 }
 
+desp = '' # 不用动
+
+def print_(info):
+    print(info)
+    global desp
+    desp = desp + info + '\n\n'
 
 def login(username, password) -> (str, requests.session):
     headers = {

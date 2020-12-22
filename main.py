@@ -154,4 +154,5 @@ if __name__ == "__main__":
         time.sleep(15)
         check(sessid, s)
         time.sleep(5)
+    SCKEY and server_chan()
     print('*' * 30)

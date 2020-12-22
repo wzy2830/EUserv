@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 USERNAME = os.environ["USERNAME"]
 PASSWORD = os.environ["PASSWORD"]
-SCKEY = os.environ["SCKEY"]
+SCKEY = "SCU36685T136889a38b5ab5a486243930d75974c85bff97ced6590"
 PROXIES = {
     "http": "http://127.0.0.1:10809",
     "https": "http://127.0.0.1:10809"

@@ -1,4 +1,4 @@
-name: 'EUserv Auto Extend'
+name: '【EUserv自动续期】'
 
 on:
   workflow_dispatch:

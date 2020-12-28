@@ -116,7 +116,7 @@ def check(sess_id, session):
         
 def server_chan():
     data = (
-    ('text', 'EUserv续费日志'),
+    ('text', 'EUserv自动续期日志'),
     ('desp', desp)
 )
     response = requests.post('https://sc.ftqq.com/' + SCKEY + '.send', data=data)

@@ -119,7 +119,7 @@ def server_chan():
     ('text', 'EUserv自动续期日志'),
     ('desp', desp)
 )
-    response = requests.post('https://sc.ftqq.com/' + SCKEY + '.send', data=data)
+    response = requests.post('https://sc.ftqq.com/'+SCKEY+'.send?text='+text+'&desp='+desp, data=data)
     if response.status_code != 200:
         print('Server酱 推送失败')
     else:

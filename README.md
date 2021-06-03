@@ -19,6 +19,7 @@ EUserv_extend
 USERNAME: 你的EUserv账户邮箱或Customer ID 第二个账户
 PASSWORD: 第一个账户密码 第二个账户密码
 TOKEN: (可选)微信扫码免费登录 https://sre24.com 在「设置」页面复制值
+
 2、设置好环境变量后点击你的仓库上方的 Actions 选项，点击 I understand... 按钮确认在 Fork 的仓库上启用 GitHub Actions 。
 
 3、最后在你这个 Fork 的仓库内修改一下.github/workflows/action.yml 文件（这个本项目的Workflow的配置文件）。请见这一段落：
